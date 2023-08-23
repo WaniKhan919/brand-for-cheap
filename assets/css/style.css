@@ -106,9 +106,21 @@
   font-size: 34px;
   font-weight: 600;
 }
+
 .howItsWorkBg .card h4 {
   color: #799779;
   font-size: 18px;
+  font-weight: 600;
+}
+.card-placeorder h4 span {
+  color: #799779;
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.card-placeorder h4 {
+  color: #000;
+  font-size: 34px;
   font-weight: 600;
 }
 .join-telegram {
@@ -176,4 +188,52 @@
 }
 .step4svg {
   margin-left: 170%;
+}
+.step2-heading {
+  text-align: center;
+  color: #ecc1a1;
+  font-size: 20px;
+  margin-top: 18%;
+  margin-left: -3%;
+}
+.step4-heading {
+  text-align: center;
+  color: #ecc1a1;
+  font-size: 20px;
+  margin-top: 18%;
+  margin-left: -3%;
+}
+.card-placeorder {
+  width: 80%;
+  margin-top: 10%;
+}
+.card-text {
+  font-size: 16px;
+}
+.q1-text {
+  font-size: 18px;
+  font-weight: 500;
+}
+.span-q1 {
+  color: red;
+}
+.q1-shippment-yes-button {
+  border: 0.5px solid rgb(185, 185, 185);
+  cursor: pointer;
+  justify-content: center;
+  border-radius: 10px;
+}
+.place-an-order-q1 {
+  width: 80%;
+}
+
+.q1-shippment-yes-button:hover {
+  background-color: #fdf9f6;
+  color: #d4ae91;
+  border: none;
+}
+.q1-answer-text {
+  font-size: 15px;
+  color: #71717a;
+  margin-top: 12px;
 }
