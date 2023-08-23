@@ -79,5 +79,54 @@
   color:#799779;
   text-decoration: underline;
   cursor: pointer;
-margin-left: 2px;
+  margin-left: 2px;
+}
+.navbar-nav .nav-item{
+  margin-right: 3rem;
+}
+.main-card-section .shadow{
+  border-radius: 1rem;
+}
+.explore{
+  margin-top: 5rem;
+}
+.how-its-work{
+  margin-top: 4rem;
+}
+.howItsWorkBg{
+  margin-top: 4rem;
+  background-image: url('../img/how-it-work.png');
+}
+.how-its-work .row h4{
+  font-size: 34px;
+  font-weight: 600;
+}
+.how-its-work .row h4 span{
+  color: #799779;
+  font-size: 34px;
+  font-weight: 600;
+}
+.howItsWorkBg .card h4{
+  color: #799779;
+  font-size: 18px;
+  font-weight: 600;
+}
+.join-telegram{
+  background-image: url('../img/bd_group.png');
+  background-repeat: no-repeat;
+  background-size: 100% 88%;
+  margin-top: 5rem;
+}
+.stylish-man{
+  position: relative;
+  top: -63px;
+}
+.telegram-channel{
+  padding: 10rem;
+}
+.telegram-channel h4, .telegram-channel p{
+  color: #f5f1ee;
+}
+.telegram-channel h4 span{
+  color: #799779;
 }

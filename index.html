@@ -6,28 +6,23 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Brand For Cheap</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 
 <body>
   <section class="container-fluid navabr-section">
     <div class="container">
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-lg navbar-light ">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="assets/img/logo.png" alt="" class="nav-logo" />
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavDropdown">
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul class="navbar-nav">
-              <!-- <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li> -->
               <li class="nav-item">
                 <a class="nav-link text-black" href="#">How it works</a>
               </li>
@@ -37,9 +32,12 @@
               <li class="nav-item">
                 <a class="nav-link text-black" href="#">Our Bundles</a>
               </li>
+              <li class="nav-item d-block d-md-none">
+                <button class="btn btn-green p-3">Join Telegram Group</button>
+              </li>
             </ul>
           </div>
-          <button class="btn btn-green p-3">Join Telegram Group</button>
+          <button class="btn btn-green p-3 d-none d-md-block">Join Telegram Group</button>
         </div>
       </nav>
     </div>
@@ -60,22 +58,22 @@
   </section>
   <!-- Hero Section start -->
   <!-- Logo card start -->
-  <section class="container main-card-section ">
+  <section class="container main-card-section">
     <div class="row">
       <div class="col-md-12">
         <div class="card main-card shadow">
           <div class="card-body px-4">
-            <div class="row">
-              <div class="col-md-3">
+            <div class="row p-3">
+              <div class="col-12 col-md-6 col-lg-3 text-center mt-2">
                 <img src="./assets/img/carters-logo.png" class="img-fluid" alt="Image 1" />
               </div>
-              <div class="col-md-3">
+              <div class="col-12 col-md-6 col-lg-3 text-center mt-2">
                 <img src="./assets/img/h&m-logo.png" class="img-fluid" alt="Image 2" />
               </div>
-              <div class="col-md-3">
+              <div class="col-12 col-md-6 col-lg-3 text-center mt-2">
                 <img src="./assets/img/tommy-logo.png" class="img-fluid" alt="Image 3" />
               </div>
-              <div class="col-md-3">
+              <div class="col-12 col-md-6 col-lg-3 text-center mt-2">
                 <img src="./assets/img/zara-logo.png" class="img-fluid" alt="Image 4" />
               </div>
             </div>
@@ -86,20 +84,31 @@
   <!-- Logo card end -->
   <!-- Explore Wholesale market start -->
   <section class="explore">
-    <div class="container mt-4">
-      <div class="d-flex justify-content-center align-items-center">
+    <div class="container">
+      <div class="d-flex justify-content-center align-items-center mb-4">
         <div class="col">
           <h2 class="text-center">Explore <span class="wholesale-text">Wholesale Market</span></h2>
           <p class="text-center">Dive into a World of Wholesale Fashion Delights. Explore Our Bundles Tailored to Your
             Taste and Uncover
             Unmatched Deals for Every Wardrobe.</p>
+            <div>
+              <svg width="63" height="51" viewBox="0 0 63 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M52.3241 20.9203C52.2652 20.8037 51.3161 20.317 50.2037 19.8543C47.0422 18.524 45.2935 16.8602 46.4364 16.2825C47.9525 15.5162 54.8214 20.068 54.0322 21.3455C53.8581 21.6384 52.5245 21.3168 52.3241 20.9203Z" fill="#EAE9E7"/>
+                <path d="M44.3702 27.6049C44.0245 26.0519 43.4666 24.0791 43.1004 23.1807C42.3321 21.1971 42.3414 20.6942 43.0781 20.7611C44.5396 20.8717 46.1741 23.1206 47.2056 26.4939C49.837 34.9445 45.6215 33.1512 44.3702 27.6049Z" fill="#EAE9E7"/>
+                <path d="M53.3668 10.7586C54.9224 10.9973 56.3304 12.2768 55.7255 12.934C55.1439 13.5793 50.3431 14.2199 49.1492 13.8277C46.4806 12.951 50.1504 10.2466 53.3668 10.7586Z" fill="#EAE9E7"/>
+                <path d="M13.1624 35.3846C12.0476 37.0609 6.48059 36.2435 5.4785 34.2609C4.86546 33.048 5.29686 32.8593 8.07909 32.9758C12.0655 33.1571 14.0334 34.0952 13.1624 35.3846Z" fill="#EAE9E7"/>
+                <path d="M15.7259 28.1152C17.3339 29.6744 17.7814 30.4438 17.3626 30.8898C16.5716 31.7581 10.5764 26.5597 11.0625 25.4355C11.4095 24.6158 13.2257 25.6599 15.7259 28.1152Z" fill="#EAE9E7"/>
+                <path d="M24.3619 22.3156C24.8237 29.0809 18.745 31.597 20.9692 21.6292C21.496 19.1374 24.1752 19.6866 24.3619 22.3156Z" fill="#EAE9E7"/>
+                <path d="M32.5566 20.1645C37.5822 6.64306 41.7241 2.32402 49.7305 2.34766C52.3369 2.34802 53.3255 3.89815 51.225 4.66699C41.1661 8.34562 40.4682 11.8317 34.3441 28.0461C30.589 38.0556 25.0873 44.2625 19.0842 45.3054C13.7819 46.2284 8.65655 44.7779 8.70458 42.3817C8.73614 41.5751 8.68949 41.5986 11.0985 41.9037C20.6998 43.1711 25.9828 37.8067 32.5566 20.1645Z" fill="#EAE9E7"/>
+                </svg>                
+            </div>
         </div>
       </div>
       <div class="row justify-content-center mt-3 mb-3">
-        <div class="col-md-4">
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
           <div class="card rounded shadow pt-2 px-2 py-2" style="border: none;">
             <img class="card-img-top rounded"
-              src="https://www.global-entrepreneur.com/wp-content/uploads/2021/03/Green-Business-Ideas-Eco-Friendly-retail.jpg"
+              src="assets/img/products/image1.png"
               alt="Card image cap">
             <div class="">
               <div class="card-body">
@@ -114,10 +123,10 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
           <div class="card rounded shadow pt-2 px-2 py-2" style="border: none;">
             <img class="card-img-top rounded"
-              src="https://www.global-entrepreneur.com/wp-content/uploads/2021/03/Green-Business-Ideas-Eco-Friendly-retail.jpg"
+              src="assets/img/products/image2.png"
               alt="Card image cap">
             <div class="">
               <div class="card-body">
@@ -132,10 +141,64 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
           <div class="card rounded shadow pt-2 px-2 py-2" style="border: none;">
             <img class="card-img-top rounded"
-              src="https://www.global-entrepreneur.com/wp-content/uploads/2021/03/Green-Business-Ideas-Eco-Friendly-retail.jpg"
+              src="assets/img/products/image3.png"
+              alt="Card image cap">
+            <div class="">
+              <div class="card-body">
+                <h5 class="card-title card-title-explore mx-2">Children Cream Bundle</h5>
+                <p class="card-text">This bundle consists of kid’s clothing items from 0-14years, it’s a mixture
+                  of both boys and girls. You .....<span class="card-readmore-text">read more</span></p>
+                <div class="d-flex justify-content-between align-items-center mt-3">
+                  <p class="text-black price-text">₦340K<br><span class="explore-kgs-txt">MOQ 25 kgs</span></p>
+                  <a href="#" class="btn btn-primary bg-black text-white border-0 ordernow-btn">Order Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="card rounded shadow pt-2 px-2 py-2" style="border: none;">
+            <img class="card-img-top rounded"
+              src="assets/img/products/image4.png"
+              alt="Card image cap">
+            <div class="">
+              <div class="card-body">
+                <h5 class="card-title card-title-explore mx-2">Children Cream Bundle</h5>
+                <p class="card-text">This bundle consists of kid’s clothing items from 0-14years, it’s a mixture
+                  of both boys and girls. You .....<span class="card-readmore-text">read more</span></p>
+                <div class="d-flex justify-content-between align-items-center mt-3">
+                  <p class="text-black price-text">₦340K<br><span class="explore-kgs-txt">MOQ 25 kgs</span></p>
+                  <a href="#" class="btn btn-primary bg-black text-white border-0 ordernow-btn">Order Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="card rounded shadow pt-2 px-2 py-2" style="border: none;">
+            <img class="card-img-top rounded"
+              src="assets/img/products/image5.png"
+              alt="Card image cap">
+            <div class="">
+              <div class="card-body">
+                <h5 class="card-title card-title-explore mx-2">Children Cream Bundle</h5>
+                <p class="card-text">This bundle consists of kid’s clothing items from 0-14years, it’s a mixture
+                  of both boys and girls. You .....<span class="card-readmore-text">read more</span></p>
+                <div class="d-flex justify-content-between align-items-center mt-3">
+                  <p class="text-black price-text">₦340K<br><span class="explore-kgs-txt">MOQ 25 kgs</span></p>
+                  <a href="#" class="btn btn-primary bg-black text-white border-0 ordernow-btn">Order Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="card rounded shadow pt-2 px-2 py-2" style="border: none;">
+            <img class="card-img-top rounded"
+              src="assets/img/products/image6.png"
               alt="Card image cap">
             <div class="">
               <div class="card-body">
@@ -151,16 +214,148 @@
           </div>
         </div>
       </div>
+      <div class="row justify-content-center d-grid">
+        <a href="" class="btn btn-green p-3">Shop Now</a>
+      </div>
     </div>
   </section>
-
-
-
   <!-- Explore Wholesale market end -->
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
+  <!-- How its work start -->
+  <section class="how-its-work">
+    <div class="container">
+      <div class="row text-center">
+        <h4>How it <span>Works</span></h4>
+        <p>These are the simple procedures that will make your purchasing process super easy and smooth.
+          <br> 
+          And will help you to get your favorites easily.</p>
+      </div>
+    </div>
+    <div class="container howItsWorkBg">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-3 d-flex mb-3 ">
+          <div class="card">
+            <div class="card-body text-center">
+              <div class="img m-2">
+                <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="32" cy="32" r="32" fill="#475C46"/>
+                  <path d="M40.2704 25.3815C40.4129 24.4609 39.5376 23.7343 38.7191 24.0937L22.4169 31.2512C21.83 31.509 21.8729 32.398 22.4817 32.5919L25.8436 33.6625C26.4852 33.8668 27.18 33.7612 27.7403 33.3741L35.32 28.1375C35.5485 27.9795 35.7977 28.3045 35.6024 28.5059L30.1464 34.131C29.6172 34.6767 29.7222 35.6013 30.3588 36.0005L36.4674 39.8312C37.1525 40.2608 38.0339 39.8292 38.1621 39.0013L40.2704 25.3815Z" fill="white"/>
+                  </svg>                    
+              </div>
+              <div class="text m-2">
+                <h4>Join Telegram Group</h4>
+                <p>Join Our Telegram Group to See Currently Available Products in Our Bundles.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 d-flex mb-3">
+          <div class="card">
+            <div class="card-body text-center">
+              <div class="img m-2">
+                <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="32" cy="32" r="32" fill="#475C46"/>
+                  <g clip-path="url(#clip0_398_642)">
+                  <path d="M33.334 22.6667H44.0007" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M33.334 28H40.0007" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M33.334 36H44.0007" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M33.334 41.3333H40.0007" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M20 22.6666C20 22.313 20.1405 21.9739 20.3905 21.7238C20.6406 21.4738 20.9797 21.3333 21.3333 21.3333H26.6667C27.0203 21.3333 27.3594 21.4738 27.6095 21.7238C27.8595 21.9739 28 22.313 28 22.6666V28C28 28.3536 27.8595 28.6927 27.6095 28.9428C27.3594 29.1928 27.0203 29.3333 26.6667 29.3333H21.3333C20.9797 29.3333 20.6406 29.1928 20.3905 28.9428C20.1405 28.6927 20 28.3536 20 28V22.6666Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M20 36C20 35.6464 20.1405 35.3073 20.3905 35.0572C20.6406 34.8072 20.9797 34.6667 21.3333 34.6667H26.6667C27.0203 34.6667 27.3594 34.8072 27.6095 35.0572C27.8595 35.3073 28 35.6464 28 36V41.3334C28 41.687 27.8595 42.0261 27.6095 42.2762C27.3594 42.5262 27.0203 42.6667 26.6667 42.6667H21.3333C20.9797 42.6667 20.6406 42.5262 20.3905 42.2762C20.1405 42.0261 20 41.687 20 41.3334V36Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_398_642">
+                  <rect width="32" height="32" fill="white" transform="translate(16 16)"/>
+                  </clipPath>
+                  </defs>
+                  </svg>                                                            
+              </div>
+              <div class="text m-2">
+                <h4>Complete Order Form</h4>
+                <p>Complete the Order Form Carefully, Making Sure to Select the Bundles You Want.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 d-flex mb-3">
+          <div class="card">
+            <div class="card-body text-center">
+              <div class="img m-2">
+                <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="32" cy="32" r="32" fill="#475C46"/>
+                  <g clip-path="url(#clip0_0_1)">
+                  <path d="M20 26.6666C20 25.6058 20.4214 24.5883 21.1716 23.8382C21.9217 23.0881 22.9391 22.6666 24 22.6666H40C41.0609 22.6666 42.0783 23.0881 42.8284 23.8382C43.5786 24.5883 44 25.6058 44 26.6666V37.3333C44 38.3942 43.5786 39.4116 42.8284 40.1617C42.0783 40.9119 41.0609 41.3333 40 41.3333H24C22.9391 41.3333 21.9217 40.9119 21.1716 40.1617C20.4214 39.4116 20 38.3942 20 37.3333V26.6666Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M20 29.3334H44" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M25.334 36H25.3473" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M30.666 36H33.3327" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_0_1">
+                  <rect width="32" height="32" fill="white" transform="translate(16 16)"/>
+                  </clipPath>
+                  </defs>
+                </svg>
+              </div>
+              <div class="text m-2">
+                <h4>Make Payment</h4>
+                <p>Choose Your Preferred Payment Method - Flutterwave or Direct Bank Transfer.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 d-flex mb-3">
+          <div class="card">
+            <div class="card-body text-center">
+              <div class="img m-2">
+                <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="32" cy="32" r="32" fill="#475C46"/>
+                  <g clip-path="url(#clip0_0_1)">
+                  <path d="M20 32C20 33.5759 20.3104 35.1363 20.9134 36.5922C21.5165 38.0481 22.4004 39.371 23.5147 40.4853C24.629 41.5996 25.9519 42.4835 27.4078 43.0866C28.8637 43.6896 30.4241 44 32 44C33.5759 44 35.1363 43.6896 36.5922 43.0866C38.0481 42.4835 39.371 41.5996 40.4853 40.4853C41.5996 39.371 42.4835 38.0481 43.0866 36.5922C43.6896 35.1363 44 33.5759 44 32C44 30.4241 43.6896 28.8637 43.0866 27.4078C42.4835 25.9519 41.5996 24.629 40.4853 23.5147C39.371 22.4004 38.0481 21.5165 36.5922 20.9134C35.1363 20.3104 33.5759 20 32 20C30.4241 20 28.8637 20.3104 27.4078 20.9134C25.9519 21.5165 24.629 22.4004 23.5147 23.5147C22.4004 24.629 21.5165 25.9519 20.9134 27.4078C20.3104 28.8637 20 30.4241 20 32Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M28 32L30.6667 34.6666L36 29.3333" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_0_1">
+                  <rect width="32" height="32" fill="white" transform="translate(16 16)"/>
+                  </clipPath>
+                  </defs>
+                </svg>
+              </div>
+              <div class="text m-2">
+                <h4>Order Confirmed</h4>
+                <p>Your order is confirmed and your Style Upgrade is On Its Way.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center d-grid mt-5">
+      <a href="" class="btn btn-green p-3">Join Telegram</a>
+    </div>
+  </section>
+  <!-- How its work end -->
+
+  <!-- Join Telegram start -->
+  <section class="container-fluid join-telegram">
+    <div class="row">
+      <div class="col-8 telegram-channel">
+        <h4>Join Our <span>Telegram</span> Channel</h4>
+        <p>Join others like you to see new and trending branded products <br>
+           as they become available. Ask questions directly to the <br>
+            Brands4Cheap team.</p>
+            <a href="" class="btn btn-green p-3">Join Now</a>
+      </div>
+      <div class="col-4">
+        <div class="stylish-man">
+          <img src="assets/img/man-stylish.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Join Telegram end -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
