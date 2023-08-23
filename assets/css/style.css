@@ -156,20 +156,24 @@
   margin-left: -50%;
 }
 .card-step3 {
-  width: 220%;
+  width: 350%;
   border: none;
   margin-top: 66%;
+  margin-left: 90%;
 }
-/* .step3-svg-arrow {
+/* .step3-svg-arrow 
   width: 170%;
   height: 100%;
 } */
 .step3-heading {
   color: #ecc1a1;
   text-align: center;
-  margin-left: 70%;
-  margin-top: -10%;
+  margin-left: 202%;
+  margin-top: -14%;
   width: 100%;
   font-size: 20px;
   margin-bottom: -50%;
+}
+.step4svg {
+  margin-left: 170%;
 }
