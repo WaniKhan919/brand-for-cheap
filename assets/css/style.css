@@ -55,78 +55,121 @@
 .main-card-section {
   margin-top: -33px;
 }
-.wholesale-text{
+.wholesale-text {
   color: #799779;
 }
-.card-title-explore{
+.card-title-explore {
   color: #799779;
 }
-.explore-kgs-txt{
+.explore-kgs-txt {
   color: #ecc1a1;
   font-size: 14px;
 }
-.price-text{
+.price-text {
   font-weight: 600;
   font-size: 18px;
 }
-.ordernow-btn{
+.ordernow-btn {
   margin-bottom: 10px;
   border-radius: 20px;
   background-color: #141e15;
 }
 
-.card-readmore-text{
-  color:#799779;
+.card-readmore-text {
+  color: #799779;
   text-decoration: underline;
   cursor: pointer;
   margin-left: 2px;
 }
-.navbar-nav .nav-item{
+.navbar-nav .nav-item {
   margin-right: 3rem;
 }
-.main-card-section .shadow{
+.main-card-section .shadow {
   border-radius: 1rem;
 }
-.explore{
+.explore {
   margin-top: 5rem;
 }
-.how-its-work{
+.how-its-work {
   margin-top: 4rem;
 }
-.howItsWorkBg{
+.howItsWorkBg {
   margin-top: 4rem;
-  background-image: url('../img/how-it-work.png');
+  /* background-image: url('../img/how-it-work.png'); */
 }
-.how-its-work .row h4{
+.how-its-work .row h4 {
   font-size: 34px;
   font-weight: 600;
 }
-.how-its-work .row h4 span{
+.how-its-work .row h4 span {
   color: #799779;
   font-size: 34px;
   font-weight: 600;
 }
-.howItsWorkBg .card h4{
+.howItsWorkBg .card h4 {
   color: #799779;
   font-size: 18px;
   font-weight: 600;
 }
-.join-telegram{
-  background-image: url('../img/bd_group.png');
+.join-telegram {
+  background-image: url("../img/bd_group.png");
   background-repeat: no-repeat;
   background-size: 100% 88%;
   margin-top: 5rem;
 }
-.stylish-man{
+.stylish-man {
   position: relative;
   top: -63px;
 }
-.telegram-channel{
+.telegram-channel {
   padding: 10rem;
 }
-.telegram-channel h4, .telegram-channel p{
+.telegram-channel h4,
+.telegram-channel p {
   color: #f5f1ee;
 }
-.telegram-channel h4 span{
+.telegram-channel h4 span {
   color: #799779;
+}
+/* .step1-img {
+  margin-left: 12%;
+  align-self: center;
+  margin-top: 4%;
+  width: 80%;
+  margin-left: 40%;
+  height: 80%;
+  object-fit: contain;
+}*/
+.card-steps1 {
+  width: 220%;
+  border: none;
+  margin-top: 1%;
+}
+.step1-heading {
+  color: #ecc1a1;
+  text-align: center;
+  margin-left: 50%;
+  margin-top: -5%;
+  font-size: 20px;
+}
+.step3svg {
+  margin-left: -50%;
+}
+.card-step3 {
+  width: 220%;
+  border: none;
+  margin-top: 66%;
+}
+/* .step3-svg-arrow {
+  width: 170%;
+  height: 100%;
+} */
+.step3-heading {
+  color: #ecc1a1;
+  text-align: center;
+  margin-left: 70%;
+  margin-top: -10%;
+  width: 100%;
+  font-size: 20px;
+  margin-bottom: -50%;
 }
