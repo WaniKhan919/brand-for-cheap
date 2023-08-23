@@ -1,7 +1,83 @@
-.navabr-section{
-  background-color: #F5F1EE;
+.navabr-section {
+  background-color: #f5f1ee;
 }
-.btn-green{
+.btn-green {
   background-color: #799779;
   color: white;
+}
+.nav-logo {
+  height: 50px;
+  width: auto;
+}
+.hero-section {
+  background-image: url("./../img/hero-img.png");
+  background-size: cover;
+  background-position: center;
+  height: 45vh;
+}
+.hero-section {
+  position: relative;
+  background-image: url("./../img/hero-img.png");
+  background-size: cover;
+  background-position: center;
+  height: 57vh;
+  overflow: hidden;
+}
+
+.hero-section-button {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  background-color: #799779;
+  color: white;
+  border: none;
+}
+.hero-section-button:hover {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  background-color: #799779;
+  color: white;
+  border: none;
+}
+.hero-img-text {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  font-weight: 500;
+}
+.main-card-section {
+  margin-top: -33px;
+}
+.wholesale-text{
+  color: #799779;
+}
+.card-title-explore{
+  color: #799779;
+}
+.explore-kgs-txt{
+  color: #ecc1a1;
+  font-size: 14px;
+}
+.price-text{
+  font-weight: 600;
+  font-size: 18px;
+}
+.ordernow-btn{
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background-color: #141e15;
+}
+
+.card-readmore-text{
+  color:#799779;
+  text-decoration: underline;
+  cursor: pointer;
+margin-left: 2px;
 }
