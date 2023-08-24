@@ -1,20 +1,24 @@
 .navabr-section {
   background-color: #f5f1ee;
 }
+
 .btn-green {
   background-color: #799779;
   color: white;
 }
+
 .nav-logo {
   height: 50px;
   width: auto;
 }
+
 .hero-section {
   background-image: url("./../img/hero-img.png");
   background-size: cover;
   background-position: center;
   height: 45vh;
 }
+
 .hero-section {
   position: relative;
   background-image: url("./../img/hero-img.png");
@@ -34,6 +38,7 @@
   color: white;
   border: none;
 }
+
 .hero-section-button:hover {
   position: absolute;
   bottom: 20px;
@@ -44,6 +49,7 @@
   color: white;
   border: none;
 }
+
 .hero-img-text {
   position: absolute;
   bottom: 50px;
@@ -52,23 +58,29 @@
   z-index: 1;
   font-weight: 500;
 }
+
 .main-card-section {
   margin-top: -33px;
 }
+
 .wholesale-text {
   color: #799779;
 }
+
 .card-title-explore {
   color: #799779;
 }
+
 .explore-kgs-txt {
   color: #ecc1a1;
   font-size: 14px;
 }
+
 .price-text {
   font-weight: 600;
   font-size: 18px;
 }
+
 .ordernow-btn {
   margin-bottom: 10px;
   border-radius: 20px;
@@ -81,26 +93,33 @@
   cursor: pointer;
   margin-left: 2px;
 }
+
 .navbar-nav .nav-item {
   margin-right: 3rem;
 }
+
 .main-card-section .shadow {
   border-radius: 1rem;
 }
+
 .explore {
   margin-top: 5rem;
 }
+
 .how-its-work {
   margin-top: 4rem;
 }
+
 .howItsWorkBg {
   margin-top: 4rem;
   /* background-image: url('../img/how-it-work.png'); */
 }
+
 .how-its-work .row h4 {
   font-size: 34px;
   font-weight: 600;
 }
+
 .how-its-work .row h4 span {
   color: #799779;
   font-size: 34px;
@@ -112,6 +131,7 @@
   font-size: 18px;
   font-weight: 600;
 }
+
 .card-placeorder h4 span {
   color: #799779;
   font-size: 34px;
@@ -123,26 +143,32 @@
   font-size: 34px;
   font-weight: 600;
 }
+
 .join-telegram {
   background-image: url("../img/bd_group.png");
   background-repeat: no-repeat;
   background-size: 100% 88%;
   margin-top: 5rem;
 }
+
 .stylish-man {
   position: relative;
   top: -63px;
 }
+
 .telegram-channel {
   padding: 10rem;
 }
+
 .telegram-channel h4,
 .telegram-channel p {
   color: #f5f1ee;
 }
+
 .telegram-channel h4 span {
   color: #799779;
 }
+
 /* .step1-img {
   margin-left: 12%;
   align-self: center;
@@ -157,6 +183,7 @@
   border: none;
   margin-top: 1%;
 }
+
 .step1-heading {
   color: #ecc1a1;
   text-align: center;
@@ -164,15 +191,18 @@
   margin-top: -5%;
   font-size: 20px;
 }
+
 .step3svg {
   margin-left: -50%;
 }
+
 .card-step3 {
   width: 350%;
   border: none;
   margin-top: 66%;
   margin-left: 90%;
 }
+
 /* .step3-svg-arrow 
   width: 170%;
   height: 100%;
@@ -186,9 +216,11 @@
   font-size: 20px;
   margin-bottom: -50%;
 }
+
 .step4svg {
   margin-left: 170%;
 }
+
 .step2-heading {
   text-align: center;
   color: #ecc1a1;
@@ -196,6 +228,7 @@
   margin-top: 18%;
   margin-left: -3%;
 }
+
 .step4-heading {
   text-align: center;
   color: #ecc1a1;
@@ -203,26 +236,32 @@
   margin-top: 18%;
   margin-left: -3%;
 }
+
 .card-placeorder {
   width: 80%;
   margin-top: 10%;
 }
+
 .card-text {
   font-size: 16px;
 }
+
 .q1-text {
   font-size: 18px;
   font-weight: 500;
 }
+
 .span-q1 {
   color: red;
 }
+
 .q1-shippment-yes-button {
   border: 0.5px solid rgb(185, 185, 185);
   cursor: pointer;
   justify-content: center;
   border-radius: 10px;
 }
+
 .place-an-order-q1 {
   width: 80%;
 }
@@ -232,8 +271,114 @@
   color: #d4ae91;
   border: none;
 }
+
 .q1-answer-text {
   font-size: 15px;
   color: #71717a;
-  margin-top: 12px;
+  margin-top: 15px;
+}
+
+.add-information-heading {
+  font-size: 20px;
+}
+
+.select-bundle {
+  background-color: #f2f5f2;
+  padding-top: 2%;
+}
+
+.select-bundle-heading {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.select-bundle-txt {
+  font-size: 18px;
+}
+
+.select-bundle-txt:checked {
+  color: yellowgreen;
+}
+
+.form-check-input:checked {
+  background-color: #799779;
+  border-color: #799779;
+}
+
+.form-check-input:checked+label {
+  color: #799779;
+}
+
+.order-check:checked {
+  background-color: #d4ae91;
+  border-color: #d4ae91;
+}
+
+.drop-quantity {
+  color: #000;
+  border: 1px solid rgb(205, 205, 205);
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  border-color: inherit;
+  border-style: hidden;
+  border-width: 0;
+}
+
+.dropdown-quantity {
+  width: 40%;
+}
+
+.totalamount-text {
+  font-size: 16px;
+}
+
+.btn-flutterwave {
+  border: 1px solid black;
+  font-weight: 500;
+}
+
+.btn-bankaccount {
+  background-color: #799779;
+  color: #ffff;
+
+}
+
+.btn-bankaccount:hover {
+  background-color: #556455;
+  color: #ffff;
+
+}
+.frequent-question span{
+  color:#799779
+}
+.frequent-question h4 {
+  font-size: 34px;
+  font-weight: 600;
+}
+.faq1{
+  background-color: #f5f1ee;
+  padding-left: 2%;
+  border-radius: 8px; 
+  padding-top: 1%;
+  padding-right: 2%;
+}
+.faq1 p{
+  font-size: 20px;
+  font-weight: 600;
+} 
+.faq1 span{
+  color: #000;
+} 
+.btn-contactnow {
+  font-size: 17px;
+  font-weight: 500;
+  background-color: #799779;
+  color: white;
+  border-radius: 7px;
 }
