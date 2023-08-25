@@ -354,31 +354,83 @@ tr {
   color: #ffff;
 
 }
-.frequent-question span{
-  color:#799779
+
+.frequent-question span {
+  color: #799779
 }
+
 .frequent-question h4 {
   font-size: 34px;
   font-weight: 600;
 }
-.faq1{
+
+.faq1 {
   background-color: #f5f1ee;
   padding-left: 2%;
-  border-radius: 8px; 
+  border-radius: 8px;
   padding-top: 1%;
   padding-right: 2%;
 }
-.faq1 p{
+
+.faq1 p {
   font-size: 20px;
   font-weight: 600;
-} 
-.faq1 span{
+}
+
+.faq1 span {
   color: #000;
-} 
+}
+
 .btn-contactnow {
   font-size: 17px;
   font-weight: 500;
   background-color: #799779;
   color: white;
   border-radius: 7px;
+}
+
+.Newsletter {
+  background-color: #141e15;
+  padding-top: 3%;
+  z-index: 100;
+}
+
+.newsletter-heading {
+  font-size: 34px;
+  font-weight: 600;
+  color: #ffff;
+}
+
+.newsletter-heading span {
+  color: #ecc1a1;
+}
+
+.newsletter-text {
+  font-size: 15px;
+  color: white;
+}
+
+.btn-subscribe {
+  background-color: #ecc1a1;
+  color: #f5f1ee;
+  padding-top: 5% !important;
+  padding-bottom: 5% !important;
+}
+.entermail{
+  width: 552px !important;
+  padding: 9px;
+}
+
+.footermain{
+  background-color: #f5f1ee;
+}
+.footer-text{
+  color: #141e15;
+}
+footer p{
+  color: #71717a;
+}
+footer h5{
+  color: #475c46;
+  font-size: 25px;
 }
