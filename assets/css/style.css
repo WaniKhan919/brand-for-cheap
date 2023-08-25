@@ -162,16 +162,16 @@
   background-repeat: no-repeat;
   background-size: 100% 88%;
   margin-top: 5rem;
-  overflow: hidden; /* Hide any overflow content */
-  position: relative; /* Add relative positioning */
 }
 
 .stylish-man {
+  position: relative;
+}
+.stylish-man img{
   position: absolute;
-  right: -50px;
-  top: 10%;
-  transform: translateY(-50%);
-  z-index: 1; /* Bring the image above the content */
+  top: -68px;
+  left: -55px;
+  height: 23rem;
 }
 
 .telegram-channel {
@@ -270,11 +270,6 @@
   font-size: 20px;
   margin-top: 18%;
   margin-left: -3%;
-}
-
-.card-placeorder {
-  width: 80%;
-  margin-top: 10%;
 }
 
 .card-text {
@@ -449,13 +444,41 @@ tr {
   padding-top: 5% !important;
   padding-bottom: 5% !important;
 }
-.entermail {
-  width: 552px !important;
-  padding: 9px;
+@media (min-width: 768px) {  
+  .entermail {
+    width: 230px;
+    padding: 9px;
+  }
+}
+.faq1 {
+  width: 50%; /* Default width for tablets and laptops */
 }
 
+.card-placeorder {
+  width: 80%;
+  margin-top: 10%;
+}
+
+@media (max-width: 768px) {
+  .faq1 {
+    width: 100%; /* Width for mobile devices */
+  }
+  .card-placeorder {
+    width: 100%;
+    margin-top: 10%;
+  }
+}
+.entermail {
+  width: 552px;
+  padding: 9px;
+}
+.footer{
+  top: -30px;
+
+}
 .footermain {
   background-color: #f5f1ee;
+  padding-top: 2rem;
 }
 .footer-text {
   color: #141e15;

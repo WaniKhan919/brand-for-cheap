@@ -51,7 +51,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
-            <div class="d-flex justify-content-center">
+            <div class="d-grid d-md-flex justify-content-center">
             <h2 class="hero-heading">Fascinating Deals on <span>Premium</span></h2>
             <svg width="36" height="29" viewBox="0 0 36 29" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M6.07357 11.9286C6.10718 11.8621 6.64833 11.5846 7.2826 11.3208C9.08528 10.5622 10.0824 9.61354 9.43071 9.28415C8.56624 8.84721 4.64963 11.4426 5.09965 12.171C5.19889 12.3381 5.95929 12.1547 6.07357 11.9286Z" fill="#ECC1A1"/>
@@ -63,7 +63,7 @@
               <path d="M17.3479 11.4977C14.4823 3.78784 12.1207 1.32515 7.55546 1.33863C6.0693 1.33884 5.50557 2.22271 6.70326 2.6611C12.4388 4.75863 12.8367 6.74635 16.3287 15.9917C18.4698 21.699 21.6068 25.2382 25.0297 25.8329C28.0531 26.3592 30.9755 25.5321 30.9482 24.1658C30.9302 23.7058 30.9568 23.7193 29.5831 23.8933C24.1085 24.6159 21.0962 21.5572 17.3479 11.4977Z" fill="#ECC1A1"/>
               </svg>     
             </div>  
-            <div class="d-flex justify-content-center gap-3">
+            <div class="d-grid d-md-flex justify-content-center gap-3">
             <div class="svg-container">
               <svg class="svg-herosection" width="185" height="85" viewBox="0 0 229 85" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M226.984 54.71C226.45 59.6391 223.086 64.2368 216.988 68.2896C210.899 72.3361 202.267 75.707 191.648 78.2024C170.425 83.1898 141.599 84.6033 110.225 81.2067C78.8499 77.8101 50.9947 70.2605 31.3304 60.8466C21.4917 56.1365 13.7808 50.9963 8.69895 45.7405C3.60918 40.4765 1.30759 35.2655 1.84122 30.3363C2.37485 25.4071 5.73831 20.8095 11.8367 16.7567C17.9257 12.7101 26.5579 9.33928 37.1766 6.84389C58.4 1.85642 87.2256 0.442969 118.6 3.83956C149.975 7.23614 177.83 14.7858 197.494 24.1997C207.333 28.9098 215.044 34.0499 220.126 39.3058C225.216 44.5698 227.517 49.7808 226.984 54.71Z" stroke="#ECC1A1" stroke-width="3"/>
@@ -431,10 +431,8 @@
             <a href="" class="btn btn-green p-3">Join Now</a>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="stylish-man">
-            <img src="assets/img/man-stylish.png" alt="">
-          </div>
+        <div class="col-md-4 stylish-man d-none d-md-block">
+          <img src="assets/img/man-stylish.png" alt="">
         </div>
       </div>
     </section>  
@@ -666,8 +664,7 @@
           </div>
         </div>
       </div>
-  </div>
-  </section>
+    </section>
   <!-- Place an order end -->
   <!-- Frequent question asked start -->
   <section class="frequent-question mt-5">
@@ -675,7 +672,7 @@
     <p class="text-center mt-2">Your Questions, Answered. Find Clarity and Confidence in Your Shopping Experience with
       Our Comprehensive FAQs</p>
     <div class="d-flex flex-column justify-content-center align-items-center gap-4">
-      <div class="faq1 w-50">
+      <div class="faq1">
         <div class="d-flex justify-content-between">
           <p>01. <span class="mx-3 ">Can I pick or choose individual items for my bundle?</span></p>
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down"
@@ -685,7 +682,7 @@
           </svg>
         </div>
       </div>
-      <div class="faq1 w-50">
+      <div class="faq1">
         <div class="d-flex justify-content-between">
           <p>02. <span class="mx-3 ">Can I make payment and pick up immediately?</span></p>
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down"
@@ -695,7 +692,7 @@
           </svg>
         </div>
       </div>
-      <div class="faq1 w-50">
+      <div class="faq1">
         <div class="d-flex justify-content-between">
           <p>03. <span class="mx-3 ">What type of shipping methods are available?</span></p>
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down"
@@ -705,7 +702,7 @@
           </svg>
         </div>
       </div>
-      <div class="faq1 w-50">
+      <div class="faq1">
         <div class="d-flex justify-content-between">
           <p>04. <span class="mx-3 ">Can I get a quote without shipping, or can I use my own shipping company?</span>
           </p>
@@ -716,7 +713,7 @@
           </svg>
         </div>
       </div>
-      <div class="faq1 w-50">
+      <div class="faq1">
         <div class="d-flex justify-content-between">
           <p>05. <span class="mx-3 ">Do you have a return/ exchange policy?</span></p>
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down"
@@ -726,7 +723,7 @@
           </svg>
         </div>
       </div>
-      <div class="faq1 w-50">
+      <div class="faq1">
         <div class="d-flex justify-content-between">
           <p>06. <span class="mx-3 ">Do you ship to countries outside Nigeria?</span></p>
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down"
@@ -742,7 +739,7 @@
   <!-- Frequent question asked end -->
 
   <!-- Subscribe Our Newsletter start -->
-  <section class="container rounded Newsletter mt-5 pb-5 ">
+  <section class="container rounded Newsletter mt-5 pb-5 position-relative">
     <div class="d-flex justify-content-center flex-column align-items-center">
       <svg width="21" height="17" viewBox="0 0 21 17" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path
@@ -783,7 +780,7 @@
   </section>
   <!-- Subscribe Our Newsletter end -->
   <!-- Footer section start -->
-  <section class="container-fluid p-0">
+  <section class="container-fluid p-0 position-relative footer">
     <footer class="footermain text-center text-lg-start text-white">
         <div class="container p-4">
             <div class="row my-4">
