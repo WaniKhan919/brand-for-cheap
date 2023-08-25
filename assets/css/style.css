@@ -167,7 +167,7 @@
 .stylish-man {
   position: relative;
 }
-.stylish-man img{
+.stylish-man img {
   position: absolute;
   top: -68px;
   left: -55px;
@@ -444,7 +444,7 @@ tr {
   padding-top: 5% !important;
   padding-bottom: 5% !important;
 }
-@media (min-width: 768px) {  
+@media (min-width: 768px) {
   .entermail {
     width: 230px;
     padding: 9px;
@@ -472,9 +472,8 @@ tr {
   width: 552px;
   padding: 9px;
 }
-.footer{
+.footer {
   top: -30px;
-
 }
 .footermain {
   background-color: #f5f1ee;
@@ -499,4 +498,36 @@ footer h5 {
   color: #141e15;
   font-weight: 600;
   font-size: 16px;
+}
+@media (max-width: 375px) {
+  .card-step3 {
+    width: 350%;
+    border: none;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .hero-heading {
+    font-size: 30px;
+  }
+  .brands-title {
+    font-size: 30px;
+    top: 47%;
+    left: 93px;
+  }
+  .svg-herosection {
+    width: 97px;
+    height: 85px;
+  }
+
+  .brands4cheap {
+    font-size: 30px;
+  }
+  .main-card-section {
+    margin-top: 18%;
+  }
+}
+@media (max-width: 768px) {
+  .step1-heading {
+    font-display: none;
+  }
 }
