@@ -16,7 +16,7 @@
   background-size: cover;
   background-position: center;
   text-align: center; /* Center the content horizontally */
-  padding: 100px 0; /* Add some padding for spacing */
+  /* padding: 100px 0; Add some padding for spacing */
   position: relative; /* Required for absolute positioning of child elements */
 }
 
