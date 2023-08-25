@@ -11,52 +11,66 @@
   height: 50px;
   width: auto;
 }
-
 .hero-section {
-  background-image: url("./../img/hero-img.png");
+  background-image: url("./../img/hero1.png");
   background-size: cover;
   background-position: center;
-  height: 45vh;
+  text-align: center; /* Center the content horizontally */
+  padding: 100px 0; /* Add some padding for spacing */
+  position: relative; /* Required for absolute positioning of child elements */
 }
 
-.hero-section {
-  position: relative;
-  background-image: url("./../img/hero-img.png");
-  background-size: cover;
-  background-position: center;
-  height: 57vh;
-  overflow: hidden;
+.hero-section-button,
+.hero-img-text {
+  position: relative; /* Position these elements within the hero section */
+  z-index: 1; /* Place them above the background image */
+  margin: 0 auto; /* Center horizontally */
+  max-width: 80%; /* Limit the width to avoid stretching on larger screens */
 }
 
 .hero-section-button {
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1;
   background-color: #799779;
   color: white;
   border: none;
+  padding: 20px 20px;
+  display: inline-block; /* Make the button a block element */
+  margin-top: 50px; /* Add some spacing between text and button */
 }
 
 .hero-section-button:hover {
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1;
-  background-color: #799779;
-  color: white;
-  border: none;
+  background-color: #5f7f5f; /* Darker color on hover */
+}
+.hero-heading {
+  font-size: 56px;
+}
+.hero-heading span {
+  color: #799779;
+}
+.hero-img-text {
+  font-weight: 500;
+  margin-top: 40px; /* Add some spacing between text and button */
+}
+.svg-container {
+  position: relative;
+  display: inline-block;
 }
 
-.hero-img-text {
+.svg-herosection {
+  width: 185px;
+  height: 85px;
+}
+
+.brands-title {
   position: absolute;
-  bottom: 50px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1;
-  font-weight: 500;
+  top: 50%;
+  left: 19px; /* Adjust the value based on your layout */
+  transform: translateY(-50%);
+  font-size: 56px;
+  color: #799779;
+}
+.brands4cheap {
+  font-size: 54px;
+  margin-top: 10px;
 }
 
 .main-card-section {
@@ -143,30 +157,51 @@
   font-size: 34px;
   font-weight: 600;
 }
-
 .join-telegram {
   background-image: url("../img/bd_group.png");
   background-repeat: no-repeat;
   background-size: 100% 88%;
   margin-top: 5rem;
+  overflow: hidden; /* Hide any overflow content */
+  position: relative; /* Add relative positioning */
 }
 
 .stylish-man {
-  position: relative;
-  top: -63px;
+  position: absolute;
+  right: -50px;
+  top: 10%;
+  transform: translateY(-50%);
+  z-index: 1; /* Bring the image above the content */
 }
 
 .telegram-channel {
-  padding: 10rem;
-}
-
-.telegram-channel h4,
-.telegram-channel p {
-  color: #f5f1ee;
+  padding: 5rem; /* Adjust the padding to your preference */
+  box-sizing: border-box; /* Include padding in the element's dimensions */
+  color: #f5f1ee; /* Set text color */
 }
 
 .telegram-channel h4 span {
   color: #799779;
+}
+
+.btn.btn-green {
+  background-color: #799779;
+  color: #f5f1ee;
+  border: none;
+}
+
+.btn.btn-green:hover {
+  background-color: #5f7f5f;
+}
+
+.btn.btn-green {
+  background-color: #799779;
+  color: #f5f1ee;
+  border: none;
+}
+
+.btn.btn-green:hover {
+  background-color: #5f7f5f;
 }
 
 /* .step1-img {
@@ -305,7 +340,7 @@
   border-color: #799779;
 }
 
-.form-check-input:checked+label {
+.form-check-input:checked + label {
   color: #799779;
 }
 
@@ -346,17 +381,15 @@ tr {
 .btn-bankaccount {
   background-color: #799779;
   color: #ffff;
-
 }
 
 .btn-bankaccount:hover {
   background-color: #556455;
   color: #ffff;
-
 }
 
 .frequent-question span {
-  color: #799779
+  color: #799779;
 }
 
 .frequent-question h4 {
@@ -416,21 +449,31 @@ tr {
   padding-top: 5% !important;
   padding-bottom: 5% !important;
 }
-.entermail{
+.entermail {
   width: 552px !important;
   padding: 9px;
 }
 
-.footermain{
+.footermain {
   background-color: #f5f1ee;
 }
-.footer-text{
+.footer-text {
   color: #141e15;
 }
-footer p{
+footer p {
   color: #71717a;
 }
-footer h5{
+footer h5 {
   color: #475c46;
   font-size: 25px;
+}
+.quick-access-link {
+  color: #71717a;
+  text-decoration: none;
+  font-size: 16px;
+}
+.copyright {
+  color: #141e15;
+  font-weight: 600;
+  font-size: 16px;
 }
