@@ -6,6 +6,7 @@
   /* padding: 100px 0; Add some padding for spacing */
   position: relative; /* Required for absolute positioning of child elements */
   height: 15vh;
+  border-radius: 6px;
 }
 
 .term-section-button,
@@ -49,4 +50,39 @@
 .terms-svg {
   margin-left: 60%;
   margin-top: 17px;
+}
+.introduction-heading {
+  font-weight: 700;
+  font-size: 20px;
+}
+.emailaddress {
+  color: #60a5fa;
+}
+
+@media (max-width: 375px) {
+  .term-heading {
+    font-size: 27px;
+    margin-top: 15px;
+  }
+  .terms-svg {
+    margin-left: 2%;
+    margin-left: 88%;
+    width: 27px;
+  }
+}
+@media (max-width: 425px) {
+  .term-heading {
+    font-size: 27px;
+    margin-top: 15px;
+  }
+  .terms-svg {
+    margin-left: 2%;
+    margin-left: 88%;
+    width: 27px;
+  }
+}
+@media (max-width: 768px) {
+  .terms-svg {
+    margin-left: 88%;
+  }
 }
