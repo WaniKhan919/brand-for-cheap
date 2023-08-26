@@ -5,6 +5,7 @@
   text-align: center; /* Center the content horizontally */
   /* padding: 100px 0; Add some padding for spacing */
   position: relative; /* Required for absolute positioning of child elements */
+  height: 15vh;
 }
 
 .term-section-button,
@@ -28,7 +29,7 @@
   background-color: #5f7f5f; /* Darker color on hover */
 }
 .term-heading {
-  font-size: 60px;
+  font-size: 54px;
 }
 .term-heading span {
   color: #799779;
@@ -36,4 +37,16 @@
 .term-img-text {
   font-weight: 500;
   margin-top: 40px; /* Add some spacing between text and button */
+}
+.term-heading-container {
+  height: 100%;
+  position: absolute;
+  top: 7px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.terms-svg {
+  margin-left: 60%;
+  margin-top: 17px;
 }
