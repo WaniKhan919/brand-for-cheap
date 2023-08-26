@@ -1,0 +1,39 @@
+.term-section {
+  background-image: url("./../img/hero2.png");
+  background-size: cover;
+  background-position: center;
+  text-align: center; /* Center the content horizontally */
+  /* padding: 100px 0; Add some padding for spacing */
+  position: relative; /* Required for absolute positioning of child elements */
+}
+
+.term-section-button,
+.term-img-text {
+  position: relative; /* Position these elements within the term section */
+  z-index: 1; /* Place them above the background image */
+  margin: 0 auto; /* Center horizontally */
+  max-width: 80%; /* Limit the width to avoid stretching on larger screens */
+}
+
+.term-section-button {
+  background-color: #799779;
+  color: white;
+  border: none;
+  padding: 20px 20px;
+  display: inline-block; /* Make the button a block element */
+  margin-top: 50px; /* Add some spacing between text and button */
+}
+
+.term-section-button:hover {
+  background-color: #5f7f5f; /* Darker color on hover */
+}
+.term-heading {
+  font-size: 60px;
+}
+.term-heading span {
+  color: #799779;
+}
+.term-img-text {
+  font-weight: 500;
+  margin-top: 40px; /* Add some spacing between text and button */
+}

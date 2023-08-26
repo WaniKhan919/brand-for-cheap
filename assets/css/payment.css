@@ -1,0 +1,72 @@
+.payment-detail h4 span {
+  color: #799779;
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.payment-detail h4 {
+  color: #000;
+  font-size: 34px;
+  font-weight: 700;
+}
+.payment-detail-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #18181b;
+}
+.pay-txt {
+  font-size: 18px;
+  font-weight: 500;
+}
+.account-heading {
+  color: #799779;
+  font-size: 20px;
+  font-weight: 600;
+}
+.account-details {
+  width: 80%;
+}
+.account-details2 {
+  width: 92%;
+}
+.account-details3 {
+  width: 100%;
+}
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  border-color: inherit;
+  border-style: hidden;
+  border-width: 0;
+}
+.account-details-heading {
+  font-size: 14px;
+  color: #a1a1aa;
+}
+.account-details-text {
+  font-size: 17px;
+  font-weight: 700;
+}
+.drop-area {
+  width: 100%; /* Full width */
+  border: 2px dashed #799779; /* Dotted border with color */
+  padding: 30px;
+  text-align: center;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 35vh;
+  border-radius: 7px;
+}
+.btn-submit {
+  background-color: #799779;
+  color: #fff;
+  margin-top: 2%;
+  align-self: center;
+}

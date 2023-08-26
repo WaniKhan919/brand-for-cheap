@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>payment detail</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/payment.css" />
+  </head>
+  <body>
+    <section class="container-fluid payment-detail mt-3 mb-3">
+      <div class="container">
+        <div class="d-flex justify-content-center">
+          <div class="card payment-detail shadow border-0">
+            <div class="card-body">
+              <div
+                class="d-flex justify-content-center flex-column align-items-center"
+              >
+                <h4 class="card-title text-center pt-4">
+                  <span>Payment</span> Detail
+                  <h6 class="payment-detail-text mt-3 w-75 text-center">
+                    Select your payment method and upload your receipt and proceed. 
+                  </h6>
+                </h4>
+              </div>
+              <p class="mt-3 mx-3 pay-txt">
+                Select Payment Method
+              </p>
+              <hr />
+              <div class="mt-3 mx-3">
+                <div class="d-flex flex-row gap-3 ">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            <svg width="105" height="72" viewBox="0 0 105 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="0.9" y="0.9" width="102.6" height="70.2" rx="9.9" fill="white"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M32.2492 47.5748H26.07L21.4363 29.3772C21.2164 28.5401 20.7494 27.8001 20.0625 27.4513C18.3482 26.5748 16.4592 25.8772 14.3984 25.5254V24.8248H24.3527C25.7265 24.8248 26.7569 25.8772 26.9286 27.0995L29.3328 40.226L35.509 24.8248H41.5165L32.2492 47.5748ZM44.9508 47.5748H39.115L43.9204 24.8248H49.7562L44.9508 47.5748ZM57.3072 31.1272C57.4789 29.9019 58.5093 29.2013 59.7114 29.2013C61.6004 29.0254 63.6581 29.3772 65.3754 30.2507L66.4058 25.3525C64.6885 24.6519 62.7995 24.3 61.0852 24.3C55.4212 24.3 51.2997 27.4513 51.2997 31.8248C51.2997 35.1519 54.2191 36.8989 56.2798 37.9513C58.5093 39.0007 59.3679 39.7013 59.1962 40.7507C59.1962 42.3248 57.4789 43.0254 55.7646 43.0254C53.7039 43.0254 51.6431 42.5007 49.7571 41.6242L48.7268 46.5254C50.7875 47.3989 53.017 47.7507 55.0777 47.7507C61.4287 47.9236 65.3754 44.7754 65.3754 40.0501C65.3754 34.0995 57.3072 33.7507 57.3072 31.1272ZM85.7981 47.5748L81.1645 24.8248H76.1874C75.157 24.8248 74.1266 25.5254 73.7832 26.5748L65.2027 47.5748H71.2102L72.4093 44.2507H79.7906L80.4776 47.5748H85.7981ZM77.046 30.9514L78.7603 39.5255H73.9549L77.046 30.9514Z" fill="#172B85"/>
+                                <rect x="0.9" y="0.9" width="102.6" height="70.2" rx="9.9" stroke="#F2F4F7" stroke-width="1.8"/>
+                                </svg>
+                                
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            <svg width="105" height="72" viewBox="0 0 105 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1.29844" y="0.9" width="102.6" height="70.2" rx="9.9" fill="white"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M65.1305 55.2898C76.3652 55.2898 85.4726 46.2908 85.4726 35.1898C85.4726 24.0889 76.3652 15.0898 65.1305 15.0898C60.0955 15.0898 55.4877 16.8974 51.9355 19.8916C48.3833 16.8974 43.7756 15.0899 38.7405 15.0899C27.5059 15.0899 18.3984 24.0889 18.3984 35.1899C18.3984 46.2908 27.5059 55.2899 38.7405 55.2899C43.7756 55.2899 48.3834 53.4823 51.9355 50.4881C55.4877 53.4823 60.0955 55.2898 65.1305 55.2898Z" fill="#ED0006"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M51.9375 50.4881C56.3112 46.8014 59.0845 41.3156 59.0845 35.1898C59.0845 29.0641 56.3112 23.5783 51.9375 19.8916C55.4897 16.8974 60.0975 15.0898 65.1325 15.0898C76.3671 15.0898 85.4746 24.0889 85.4746 35.1898C85.4746 46.2908 76.3671 55.2898 65.1325 55.2898C60.0975 55.2898 55.4897 53.4823 51.9375 50.4881Z" fill="#F9A000"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M51.9361 50.4881C56.3098 46.8014 59.0832 41.3156 59.0832 35.1898C59.0832 29.0641 56.3098 23.5783 51.9361 19.8916C47.5624 23.5783 44.7891 29.0641 44.7891 35.1898C44.7891 41.3156 47.5624 46.8014 51.9361 50.4881Z" fill="#FF5E00"/>
+                                <rect x="1.29844" y="0.9" width="102.6" height="70.2" rx="9.9" stroke="#F2F4F7" stroke-width="1.8"/>
+                                </svg>
+                                
+                        </label>
+                      </div>
+
+                </div>
+
+              </div>
+              <hr />
+              <div class="container mt-4">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="drop-area text-center p-4">
+                      <svg
+                        width="50"
+                        height="50"
+                        viewBox="0 0 50 50"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <circle cx="25" cy="25" r="25" fill="#799779" />
+                        <g clip-path="url(#clip0_180_3593)">
+                          <path
+                            d="M17 30V32C17 32.5304 17.2107 33.0391 17.5858 33.4142C17.9609 33.7893 18.4696 34 19 34H31C31.5304 34 32.0391 33.7893 32.4142 33.4142C32.7893 33.0391 33 32.5304 33 32V30"
+                            stroke="white"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M20 22L25 17L30 22"
+                            stroke="white"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M25 17V29"
+                            stroke="white"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_180_3593">
+                            <rect
+                              width="24"
+                              height="24"
+                              fill="white"
+                              transform="translate(13 13)"
+                            />
+                          </clipPath>
+                        </defs>
+                      </svg>
+
+                      <p class="mb-0">Drag your receipt or browse for a file</p>
+                      <input type="file" class="d-none" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row justify-content-center"> <!-- Add this row -->
+                <div class="col-md-12 text-center">
+                    <button type="button" class="btn btn-submit p-3 text-center">
+                        Submit and Proceed
+                    </button>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
